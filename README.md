@@ -122,19 +122,6 @@ Total Student objects created: 2
 Is 105 a valid score? False
 ```
 
-## Try adding another student
-
-Place these lines after the two existing `add_student()` calls and before `display_students()`:
-
-student3 = Student("Mariama Sesay", "S003", 19, "Cyber Security", 76)
-
-
-To change that student's score, use:
-
-
-
-Run the file again to see the changes. To keep validation in place, use the update methods when changing names or scores.
-
 ## Limitations
 
 - Records exist only in memory and are lost when the program ends.
